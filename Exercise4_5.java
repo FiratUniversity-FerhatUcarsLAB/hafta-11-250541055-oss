@@ -25,3 +25,34 @@ public class Exercise4_5 {
         System.out.println("any " + strangStrung + "more ");
     }
 }
+
+
+ Çıktı
+ just for 
+ any  not  more 
+It ’s  breakfast 
+!
+
+
+Stack (En üst = aktif metod)
+---------------------------------
+| zoop(" breakfast ", bob=4)    |
+|   - fred = " breakfast "       |
+|   - bob = 4                    |
+|   - Aktif satır: println(fred)|
+---------------------------------
+| clink(fork=4)                  |
+|   - fork = 4                   |
+|   - Aktif satır: zoop(...)     |
+---------------------------------
+| main(args, bizz=5, buzz=2)     |
+|   - bizz = 5                   |
+|   - buzz = 2                   |
+|   - Aktif satır: clink(2*buzz)|
+---------------------------------
+
+
+
+
+
+
